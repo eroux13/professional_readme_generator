@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/eroux13/professional_readme_generator/issues"
   },
-  "homepage": "https://github.com/eroux13/professional_readme_generator#readme"
+  "homepage": "https://github.com/eroux13/professional_readme_generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
 }
