@@ -5,7 +5,7 @@
 
 ## Description
 
-The purpose of this project is to build a command-line application that uses node.js to build a README generator. The project uses inquirer to take in use input, util to use promisify that lets the user use promises instead of callback functions, and fs to write the file.
+The purpose of this project is to build a command-line application that uses node.js to build a README generator. The project uses inquirer to take in user input, util to use promisify that lets the user use promises instead of callback functions, and fs to write the file.
 
 [Full Video Walkthrough](https://drive.google.com/file/d/1E8DHLWNlT_jxd4IcTebaC-ah8qcHRi5w/view)
 
