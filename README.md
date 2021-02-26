@@ -39,5 +39,5 @@ After the user has successfully installed the application, all the user needs to
 
 ## Questions
 
-Feel free to follow my GitHub [profile](https://www.github.com/eroux13.
+Feel free to follow my GitHub [profile](https://www.github.com/eroux13).
 If you have any questions about this project, please reach out to me via ej.roux13@gmail.com.    
