@@ -1,49 +1,47 @@
 // Function to generate Markdown
 const generateMd = (data) =>
-    `
-    # ${data.title}
-    ![License](https://img.shields.io/badge/License-${data.license}-blue)
+    `# ${data.title}
+![License](https://img.shields.io/badge/License-${data.license}-blue)
 
-    ## Description
+## Description
 
-    ${data.description}
+${data.description}
 
-    ## Table of Contents
+## Table of Contents
 
-    * [Description](#description)
-    * [License](#license)
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Contributors](#contributors)
-    * [Tests](#tests)
-    * [Questions](#questions)
+* [Description](#description)
+* [License](#license)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributors](#contributors)
+* [Tests](#tests)
+* [Questions](#questions)
     
-    ## License
+## License
 
-    License chosen: ${data.license}.
-    More information about the license chosen can be found on [Open Source Initiative](https://opensource.org/licenses/${data.license}).
+License chosen: ${data.license}.
+More information about the license chosen can be found on [Open Source Initiative](https://opensource.org/licenses/${data.license}).
     
-    ## Installation
+## Installation
 
-    ${data.install}
+${data.install}
 
-    ## Usage
+## Usage
 
-    ${data.usage}
+${data.usage}
 
-    ## Contributors
+## Contributors
 
-    [${data.contributor}](https://www.github.com/${data.contributor})
+[${data.contributor}](https://www.github.com/${data.contributor})
 
-    ## Tests
+## Tests
 
-    ${data.test}
+${data.test}
 
-    ## Questions
+## Questions
 
-    Feel free to follow my GitHub [profile](https://www.github.com/${data.username}.
-    If you have any questions about this project, please reach out to me via ${data.email}.
-    `;
+Feel free to follow my GitHub [profile](https://www.github.com/${data.username}.
+If you have any questions about this project, please reach out to me via ${data.email}.`;
 
 // Export generateMd()
 module.exports = generateMd;
