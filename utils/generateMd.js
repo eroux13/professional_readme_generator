@@ -43,7 +43,7 @@ const generateMd = (data) =>
 
     Feel free to follow my GitHub [profile](https://www.github.com/${data.username}.
     If you have any questions about this project, please reach out to me via ${data.email}.
-    `
+    `;
 
 // Export generateMd()
 module.exports = generateMd;
