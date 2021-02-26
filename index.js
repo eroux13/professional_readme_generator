@@ -1,7 +1,7 @@
 // Require inquirer for user input
 const inquirer = require("inquirer");
 // Require generateMd.js from utils folder
-const generateMd = require("./utils/generateMd");
+const generateMd = require("./utils/generateMd.js");
 // Require util to use promisify to use promises
 const util = require("util");
 // Requre fs to write file
